@@ -7,7 +7,6 @@
   },
   "license": "MIT",
   "isPrivate": false,
-  "homepage": "https://tp.turbopatent.us/pathub/packages/TurboPatent/Blockchain.tp",
   "details": {
     "counts": {
       "termCount": 0,
@@ -16,94 +15,78 @@
       "drawingCount": 3,
       "glossaryCount": 8
     },
-    "drawings": [
+    "briefDescriptions": [
+      "<p>illustrates a <span data-role=\"tag\" data-value=\"d1956aaa-bd71-8064-d8ad-11004bbf1cb2\" id=\"id9c6ad161-8627-9817-587b-18e94e78f01b\" data-type=\"drawingObject\">blockchain transaction process 100</span> in accordance with one embodiment.</p>",
+      "<p>illustrates a <span data-role=\"tag\" data-value=\"15875638-0daa-70b5-268f-0fc488e1035f\" id=\"ide0ac52d6-c221-3946-5978-d0b6ee9b7511\" data-type=\"drawingObject\">blockchain formation 200</span> in accordance with one embodiment.</p>",
+      "<p>illustrates a <span data-role=\"tag\" data-value=\"0618ff7d-aa77-9cbe-558f-6822cdb9f654\" id=\"ide65b683d-7a39-c391-ef8d-3a51d23239a3\" data-type=\"drawingObject\">blockchain 300</span> in accordance with one embodiment.</p>"
+    ],
+    "parts": [
       {
-        "figure": "Fig. 1",
-        "briefDescription": "<p><b>Fig. 1</b> illustrates a blockchain transaction process 100 in accordance with one embodiment.</p>",
-        "parts": [
-          {
-            "part": "blockchain transaction process",
-            "number": 100
-          },
-          {
-            "part": "transaction requesting device",
-            "number": 102
-          }
-        ]
+        "name": "blockchain transaction process",
+        "number": 100
       },
       {
-        "figure": "Fig. 2",
-        "briefDescription": "<p><b>Fig. 2</b> illustrates a blockchain formation 200 in accordance with one embodiment.</p>",
-        "parts": [
-          {
-            "part": "blockchain formation",
-            "number": 200
-          },
-          {
-            "part": "start block",
-            "number": 202
-          },
-          {
-            "part": "mainchain",
-            "number": 204
-          },
-          {
-            "part": "orphan blocks",
-            "number": 206
-          },
-          {
-            "part": "orphan blocks",
-            "number": 206
-          }
-        ]
+        "name": "transaction requesting device",
+        "number": 102
       },
       {
-        "figure": "Fig. 3",
-        "briefDescription": "<p><b>Fig. 3</b> illustrates a blockchain 300 in accordance with one embodiment.</p>",
-        "parts": [
-          {
-            "part": "blockchain",
-            "number": 300
-          },
-          {
-            "part": "transaction 1",
-            "number": 302
-          },
-          {
-            "part": "transaction 2",
-            "number": 304
-          },
-          {
-            "part": "transaction 3",
-            "number": 306
-          },
-          {
-            "part": "block 1 owner public key",
-            "number": 308
-          },
-          {
-            "part": "block 2 owner public key",
-            "number": 310
-          },
-          {
-            "part": "block 3 owner public key",
-            "number": 312
-          },
-          {
-            "part": "O(0) signature",
-            "number": 314
-          },
-          {
-            "part": "O(1) signature",
-            "number": 316
-          },
-          {
-            "part": "O(2) signature",
-            "number": 318
-          }
-        ]
+        "name": "blockchain formation",
+        "number": 200
+      },
+      {
+        "name": "start block",
+        "number": 202
+      },
+      {
+        "name": "mainchain",
+        "number": 204
+      },
+      {
+        "name": "orphan blocks",
+        "number": 206
+      },
+      {
+        "name": "blockchain",
+        "number": 300
+      },
+      {
+        "name": "transaction 1",
+        "number": 302
+      },
+      {
+        "name": "transaction 2",
+        "number": 304
+      },
+      {
+        "name": "transaction 3",
+        "number": 306
+      },
+      {
+        "name": "block 1 owner public key",
+        "number": 308
+      },
+      {
+        "name": "block 2 owner public key",
+        "number": 310
+      },
+      {
+        "name": "block 3 owner public key",
+        "number": 312
+      },
+      {
+        "name": "O(0) signature",
+        "number": 314
+      },
+      {
+        "name": "O(1) signature",
+        "number": 316
+      },
+      {
+        "name": "O(2) signature",
+        "number": 318
       }
     ],
+    "terms": [],
     "glossary": [
       {
         "term": "smart contract",
@@ -137,8 +120,7 @@
         "term": "soft fork",
         "definition": "a change of rules that creates blocks recognized as valid by the old software, i.e. it is backwards-compatible."
       }
-    ],
-    "terms": []
+    ]
   },
   "repository": "https://github.com/TurboPatent/Blockchain"
 }
